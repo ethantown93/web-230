@@ -1,3 +1,5 @@
+// This is my first JavaScript Code!
+
 console.log("Hello World, my name is Ethan Townsend");
 
 /*
