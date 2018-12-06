@@ -8,7 +8,7 @@ var header = require('./townsend.js');
 
   Hello FirstName LastName!
 
-  Hint: Use your personal header display function and
+  Hint : Use your personal header display function and
   refer to page 178 for implementing function properties
 */
 
