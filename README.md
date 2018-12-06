@@ -2,4 +2,4 @@
 Introduction to JavaScript
 #contributors
 Professor Krasso - Bellevue University 
-Ethan Townsend - Bellevue University
+Ethan Everett Townsend - Bellevue University
