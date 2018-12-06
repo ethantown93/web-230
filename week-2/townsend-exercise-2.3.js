@@ -2,9 +2,9 @@ var header = require('./townsend.js');
 /*
   Expected output:
 
-  FirstName LastName
+  Ethan Townsend
   Exercise 2.3
-  Today's Date
+  5 December 2018
 
   Hello FirstName LastName!
 
@@ -17,7 +17,7 @@ myName.ethan = "Ethan";
 lastName.townsend = "Townsend!"
 greeting.hello = "Hello"
 
-//function
+//functions
 function myName() {
     return myName.ethan;
 }
@@ -33,5 +33,6 @@ function greeting() {
 //output
 console.log('\n');
 console.log(greeting() + ' ' + myName() + ' ' + lastName());
+console.log(header.display("Ethan", "Townsend", "Exercise 2.3"));
 
 //end program
