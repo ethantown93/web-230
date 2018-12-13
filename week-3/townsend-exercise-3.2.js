@@ -1,6 +1,6 @@
 // Header
 var header = require('../week-2/townsend.js');
-console.log(header.display("Ethan", "Townsend", "Exercise 3.1"));
+console.log(header.display("Ethan", "Townsend", "Exercise 3.2"));
 console.log('\n');
 
 /*

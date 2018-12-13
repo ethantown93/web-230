@@ -1,8 +1,7 @@
 //Header
 
-var header = require('./townsend.js');
-var displayHeader = header.display('Ethan', 'Townsend', 'Exercise 3.1');
-console.log(displayHeader);
+var header = require('../week-2/townsend.js');
+console.log(header.display("Ethan", "Townsend", "Exercise 3.1"));
 console.log('\n');
 /*
 ============================================
@@ -25,6 +24,7 @@ var highestPoints = 113;
 
 // calculate who has the highest points.
 
+/*
 switch true {
     case johnPoints >= highestPoints:
         console.log(johnPoints + ' points is the most of all three teams, therefore John is the winner.')
@@ -32,7 +32,7 @@ switch true {
         console.log(mikePoints + ' points is the most of all three teams, therefore Mike is the winner.')
     case marryPoints >= highestPoints:
         console.log(maryPoints + ' points is the most of all three teams, therefore Marry is the winner.')
-}
+}*/
 
 // expected output
 
@@ -42,7 +42,7 @@ switch true {
 
 // correct code below
 
-/*
+
 switch (true) {
     case johnPoints >= highestPoints:
         console.log(johnPoints + ' points is the most of all three teams, therefore John is the winner.')
@@ -50,4 +50,4 @@ switch (true) {
         console.log(mikePoints + ' points is the most of all three teams, therefore Mike is the winner.')
     case marryPoints >= highestPoints:
         console.log(marryPoints + ' points is the most of all three teams, therefore Marry is the winner.')
-}*/
+}
