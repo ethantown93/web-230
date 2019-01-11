@@ -16,10 +16,13 @@ console.log('\n');
 var value = 5;
 let ranNum = randomNumber();
 
+// randomNumber function 
 function randomNumber() {
     return Math.floor((Math.random() * 10) + 1)
   }
 
+
+// match, logMatch, logMisMatch functions
 function match(value, i) {
     if (value === i) {
         return true
@@ -37,6 +40,8 @@ function logMisMatch(value, i) {
     console.log(value + ' and ' + i + ' do not match!');
 }
 
+
+// for loop to generate random number
 for (var i = ranNum; i < 10; i++){
     if(match(value,i)){
         logMatch(value,i);
