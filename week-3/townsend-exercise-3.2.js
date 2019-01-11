@@ -36,7 +36,7 @@ var rockstar = 'rockstar';
 var monster = 'monster';
 
 var android = 'Samsung Galaxy S9';
-var androidPhone = 'Samsung Galaxy S9'
+var androidPhone = 'Samsung Galaxy S9';
 
 var ethanAge = 25;
 var ethanWifeAge = 24; 
