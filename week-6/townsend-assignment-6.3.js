@@ -23,7 +23,7 @@ var ticketing = {
     },
 
     set info(val){
-        this.id = val;
+        this.information = val;
     }
 }
 
