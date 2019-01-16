@@ -18,7 +18,6 @@ var ticketing = {
     //here are the variables you requested
     information: 'Drivers License, Full Name, SD Police',
     
-    
     get info() {
         return this.id
     },
