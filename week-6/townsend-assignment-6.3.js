@@ -19,7 +19,7 @@ var ticketing = {
     information: 'Drivers License, Full Name, SD Police',
     
     get info() {
-        return this.id
+        return this.information
     },
 
     set info(val){
