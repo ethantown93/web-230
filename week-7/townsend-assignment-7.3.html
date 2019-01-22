@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 7.3</title>
+
+  <!-- you will need to the href to point to your root directories css file -->
+  <link rel="stylesheet" href="../WEB-231/site.css">
+</head>
+<body>
+
+<div id="list">
+    <script>document.write('<h1> Grocery List v1</h1>')</script>
+    <ol>
+        <li> <script> document.write('Cereal') </script> </li>
+        <li> <script> document.write('Milk')  </script> </li>
+         <li> <script> document.write('Bread') </script> </li>
+         <li> <script> document.write('Peanut Butter') </script> </li>
+         <li> <script> document.write('Jelly') </script> </li>        
+    </ol>
+</div>
+
+<div id='grocery list'></div>
+<script>
+    document.getElementById('grocery list').innerHTML = '<h1> Grovery List v2 </h1>'+
+    '<table>'+
+        '<thead>'+
+            '<tr>'+
+                '<th> Grocery List </th>'+
+            '</tr>'+    
+        '</thead>'+ 
+        '<tbody>'+
+            '<tr><td> Cereal </td></tr>'+ 
+            '<tr><td> Milk </td></tr>'+
+            '<tr><td> Bread </td></tr>'+
+            '<tr><td> Peanut Butter </td></tr>'+
+            '<tr><td> Jelly </td></tr>'+
+        '</tbody>'+       
+    '</table>'
+</script>
+
+</body>
+</html>
