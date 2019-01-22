@@ -13,6 +13,15 @@ console.log('\n');
 ;===========================================
 */
 
+var team = {
+    name: 'New England Patriots.',
+    owner: 'Robert Kraft',
+};
+
+console.log('-----DISPLAYING MY FAVORITE FOOTBALL TEAM-----');
+console.log(team.owner + ' owns the ' + team.name);
+console.log('');
+
 // Here is my function constructor with the parameters
 function Employee(id, firstName, lastName, title) {
     this.id = id;
