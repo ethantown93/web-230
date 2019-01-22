@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 7.4</title>
+
+  <!-- you will need to the href to point to your root directories css file -->
+  <link rel="stylesheet" href="../site.css">
+</head>
+<body>
+
+<div id='computer compenents'></div>
+
+<script>document.getElementById('computer compenents').innerHTML = '<h1>Computer Components</h1>'</script>
+
+<!-- here is my table of 5 computer components with the correct "EDIT" and "DELETE" script -->
+<table>
+			
+        <tr>
+            <th scope="row">ID </th>
+            <th scope="row"> Name</th>
+            <th scope="row"> Amount</th>
+            <th scope="row"> Function</th>
+        </tr>
+        
+        <tr class="even">
+            <th scope="row">1. </th>
+            <td> Laptop</td>
+            <td> 1,799.00</td>
+            <td><a href="javascript:alert('Edit ID 1?');"> EDIT </a></td>
+            <td><a href="javascript:alert('Are You Sure?');"> DELETE </a></td>
+        </tr>	
+            
+        <tr class="even">
+                <th scope="row">2. </th>
+                <td> Motherboard</td>
+                <td> 50.00</td>
+                <td><a href="javascript:alert('Edit ID 2?');"> EDIT </a></td>
+                <td><a href="javascript:alert('Are You Sure?');"> DELETE </a></td>
+        </tr>	
+
+        <tr class="even">
+                <th scope="row">3. </th>
+                <td> Monitor</td>
+                <td> 200.00</td>
+                <td><a href="javascript:alert('Edit ID 3?');"> EDIT </a></td>
+                <td><a href="javascript:alert('Are You Sure?');"> DELETE </a></td>
+        </tr>	
+
+        <tr class="even">
+                <th scope="row">4. </th>
+                <td> Mouse</td>
+                <td> 70.00</td>
+                <td><a href="javascript:alert('Edit ID 4?');"> EDIT </a></td>
+                <td><a href="javascript:alert('Are You Sure?');"> DELETE </a></td>
+        </tr>
+        
+        <tr class="even">
+                <th scope="row">5. </th>
+                <td> Keyboard</td>
+                <td> 120.00</td>
+                <td><a href="javascript:alert('Edit ID 5?');"> EDIT </a></td>
+                <td><a href="javascript:alert('Are You Sure?');"> DELETE </a></td>
+        </tr>	
+        
+    
+    </table>
