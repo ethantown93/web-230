@@ -38,6 +38,9 @@ var employees = [
     new Employee(' HC', ' Bill', ' Belichick,', ' Head Coach'),
     new Employee(' RB', ' Sony', ' Michelle,', ' Running Back'),
 ];
+ 
+
+console.log('----HERE IS MY OUTPUT-----');
 
 // here is my loop which is outputing the results of the array.
 let index = 1;
