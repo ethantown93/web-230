@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript in Web Browsers</title>
+</head>
+
+<body>
+
+<h1 id="displayHeading"></h1>
+
+<p id="contentBody"></p>
+
+</body>
+
+<script>
+    document.getElementById('displayHeading').innerHTML = "Hello Class!";
+
+    var content = "I hope veryone is haveing a great week. Keep up the hard work and keep coding!"
+    var p = document.getElementById('contentBody');
+    p.insertAdjacentHTML('afterbegin' , content);
+</script>
+
+</html>
