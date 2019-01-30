@@ -1,28 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Exercise 7.3</title>
+<!DOCTYPE html><html lang="en"><head>  <meta charset="UTF-8">  <title>Exercise 7.3</title>
+  <!-- you will need to the href to point to your root directories css file -->  <link rel="stylesheet" href="../site.css"></head><body>
 
-  <!-- you will need to the href to point to your root directories css file -->
-  <link rel="stylesheet" href="../site.css">
-</head>
-<body>
 
 <h1 id = 'header1'></h1>
 
+
 <p id = 'paragraph'></p>
+
 
 <p id = 'paragraph1'></p> 
 
+
 <a href="javascript:alert('Congratulations! You fixed my code!');"> Click Here </a></input>
 
-<xxxx>
-document.getElementById('header1').innerHtml = 'Hello Class!';
+
+<script>
+
+var h1 = document.getElementById('header1');
+h1.insertAdjacentHTML('afterbegin', 'Hello Class!');
+
 document.getElementById('paragraph').innerHTML = 'Hello Class, this is my submission.'
-document.getElementClass('paragraph1').innerHTML = 'Keep up the great work everyone, have fun!'
 
+document.getElementById('paragraph1').innerHTML = 'Keep up the great work everyone, have fun!'
 
-</xxxx>
-
+</script>
 </body>
