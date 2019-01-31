@@ -1,23 +1,46 @@
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>JavaScript in Web Browsers</title>
-</head>
+<table>
 
-<body>
+    <tr>
 
-<h1 id="displayHeading"></h1>
+        <td href="#" class="vehicleId">1 </td>
 
-<p id="contentBody"></p>
+        <td>Truck </td>
 
-</body>
+    </tr>
 
+    <tr>
+
+        <td>href="#" class="vehicleId">2 </td>
+
+        <td>Car </td>
+
+    </tr>
+
+    <tr>
+
+        <td> href="#" class="vehicleId">3 </td>
+
+        <td>Bus </td>
+
+    </tr>
+
+</table>
+
+ 
 <script>
-    document.getElementById('displayHeading').innerHTML = "Hello Class!";
+$(function() {
 
-    var content = "I hope veryone is haveing a great week. Keep up the hard work and keep coding!"
-    var p = document.getElementById('contentBody');
-    p.insertAdjacentHTML('afterbegin' , content);
+   $(".vehicleId").click(function(event) {
+
+       event.preventDefault();
+
+       var vehicleId = $(this).text();
+
+       var vehicleType = $(this).closest("td").next().text();
+
+       alert("{vehicle_id: " + vehicleId + ", vehicle_type: " + vehicleType + "}");
+
+    });
+
+});
 </script>
-
-</html>

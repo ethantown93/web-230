@@ -1,0 +1,10 @@
+#topbar {
+    background-color: green;
+}
+
+#fruits {
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
+}
