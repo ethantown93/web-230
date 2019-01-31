@@ -1,0 +1,36 @@
+
+<!--
+============================================
+; Title:  townsend-discussion-8.1.html
+; Author: Ethan Townsend
+; Date:   30 January 2019
+; Modified by:
+; Description: DOM Manipulation (jQuery)
+;===========================================
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DOM Manipulation (jQuery)</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <h1>Hello Class!</h1>
+
+        <p>
+            Here is my submission.
+        </p>
+        <script>
+            $('document').ready(function() {
+                ('button').click(function() {
+                    alert('value: ' + $('#text'),val());
+                }); 
+            });
+
+        </script>
+        <input type = 'text' id = 'text' value = ''>
+        <button>Submit</button>
+        
+</body>
